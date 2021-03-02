@@ -44,7 +44,7 @@ scores[activePlayer] = scores[activePlayer] + roundScore;
 
 document.getElementById('score-' + activePlayer).textContent = scores[activePlayer];
 // Уг тоглогч хожсон эсэхийг шалгах (оноо нь 100)
-if(scores[activePlayer]>= 10){
+if(scores[activePlayer]>= 100){
     isNewGame = false;
     //ялагч гэсэн текстийг нэрний оронд гаргана
     document.getElementById('name-' + activePlayer).textContent = "WINNER!!!";
